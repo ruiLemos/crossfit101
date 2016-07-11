@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wods"
+            android:icon="@drawable/ic_fitness_center"
+            android:title="Workout of the Day" />
+        <item
+            android:id="@+id/nav_stretches"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Stretches" />
+        <item
+            android:id="@+id/nav_logger"
+            android:icon="@drawable/ic_content_paste"
+            android:title="Logger" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_action_restaurant"
+            android:title="Nutrition" />
+        <item
+            android:id="@+id/nav_timers"
+            android:icon="@drawable/ic_alarm"
+            android:title="Timers" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
